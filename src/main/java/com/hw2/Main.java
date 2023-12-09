@@ -21,6 +21,7 @@ public class Main {
             e.printStackTrace();
             return;
         }
+        // получаем параметры для подключения к H2
         String h2Url = props.getProperty("db.h2.url");
         String h2User = props.getProperty("db.h2.user");
         String h2Password = props.getProperty("db.h2.password");
